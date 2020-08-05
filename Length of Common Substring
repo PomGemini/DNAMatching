@@ -1,0 +1,9 @@
+def lofLCS(a,b) #LLCS stand for "Length of Common Substring" of two strings (with the same size)
+  x = 0
+  for i in 0 .. a.size-1
+    if a[i] == b[i]
+      x = x + 1
+    end
+  end
+  return x
+end
